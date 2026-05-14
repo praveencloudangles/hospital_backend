@@ -1,0 +1,16 @@
+from app.models.models import (  # noqa: F401
+    User,
+    Role,
+    Patient,
+    Doctor,
+    Appointment,
+    AppointmentStatus,
+    Prescription,
+    PrescriptionItem,
+    Bill,
+    BillStatus,
+    BillItem,
+    MedicalReport,
+    Notification,
+    ChatMessage,
+)
